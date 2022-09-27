@@ -1,0 +1,25 @@
+#!/bin/bash
+echo "ssh-config"
+cd /home/nvergizov/.ssh/ssh-config/
+git fetch & git pull
+git submodule update --remote
+echo "server-testfact"
+cd /home/nvergizov/git/ansible/server-testfact/
+git fetch & git pull
+git submodule update --remote
+echo "server-testfact2"
+cd /home/nvergizov/git/ansible/server-testfact2/
+git fetch & git pull
+git submodule update --remote
+echo "server-testfact3"
+cd /home/nvergizov/git/ansible/server-testfact3
+git fetch & git pull
+git submodule update --remote
+echo "server-testfact4"
+cd /home/nvergizov/git/ansible/server-testfact4
+git fetch & git pull
+git submodule update --remote
+echo "common-roles"
+cd /home/nvergizov/git/ansible/common-roles
+git fetch & git pull
+
