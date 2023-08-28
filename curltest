@@ -1,5 +1,0 @@
-#!/bin/bash
- for ((;;)) do curl -X POST -b session.txt https://miuz.ru/ 
- echo '------------------------------------------------------'
-
- done 
